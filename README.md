@@ -9,9 +9,30 @@ C++ was developed in 1979 by Danish Computer Scientist, Bjarne Stroustrup. In th
 
 ## C++ SetUp
 ### Windows Installation 
-Installing IDE 
+**Installing IDE**
+
+
 Install Virtual Studio Code using this [Link ](https://code.visualstudio.com/download
 )
+
+**Setup of C++**
+Once VS code is installed, on the left side menu click on the extensions tab and search for C++. Select the “C/ C++” option and click install. 
+
+Install MinGW -w64 toolchain  
+ https://github.com/msys2/msys2-installer/releases/download/2023-05-26/msys2-x86_64-20230526.exe
+
+Once downloaded, run the installer, and follow the steps given by the installation wizard.
+Choose the desired installation folder and menu shortcut option. When done, check MSYS2 box and click finish. 
+A MSYS2 terminal window will appear when open, run the command 
+pacman -S --needed base-devel mingw-w64-ucrt-x86_64-toolchain
+Accept the default packages by clicking enter key and enter Y when asked to proceed with installation. 
+
+WHen done, add the path to MinGW-w64 bin folder to the windows PATH environment variable. 
+
+Final Sep: check MinGW installation
+Open a new cmd prompt and type g++ – version. 
+Output should state the version of g++ if that is the case, set up was successful. 
+
 
 
 ### References

@@ -22,17 +22,17 @@ Once VS code is installed, on the left side menu click on the extensions tab and
 Install MinGW -w64 toolchain
 [Installation Link](https://github.com/msys2/msys2-installer/releases/download/2023-05-26/msys2-x86_64-20230526.exe)
 
-- [x]Once downloaded, run the installer, and follow the steps given by the installation wizard.
-- [x]Choose the desired installation folder and menu shortcut option.
-- [x]When done, check MSYS2 box and click finish. 
-- [x]A MSYS2 terminal window will appear when open, run the command 
+- []Once downloaded, run the installer, and follow the steps given by the installation wizard.
+- []Choose the desired installation folder and menu shortcut option.
+- []When done, check MSYS2 box and click finish. 
+- []A MSYS2 terminal window will appear when open, run the command 
 _**pacman -S --needed base-devel mingw-w64-ucrt-x86_64-toolchain**_
-- [x]Accept the default packages by clicking enter key and enter Y when asked to proceed with installation. 
+- []Accept the default packages by clicking enter key and enter Y when asked to proceed with installation. 
 
-- [x]Once done, add the path to MinGW-w64 bin folder to the windows PATH environment variable. 
+- []Once done, add the path to MinGW-w64 bin folder to the windows PATH environment variable. 
 
 Final Step: Check MinGW installation 
-- [x]Open a new cmd prompt and type g++ – version and click enter. 
+- []Open a new cmd prompt and type g++ – version and click enter. 
 Output should state the version of g++ if that is the case, set up was successful. 
 
 

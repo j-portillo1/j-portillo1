@@ -35,6 +35,9 @@ Final Step: Check MinGW installation
 - []Open a new cmd prompt and type g++ – version and click enter. 
 Output should state the version of g++ if that is the case, set up was successful. 
 
+- [x] #739
+- [ ] https://github.com/octo-org/octo-repo/issues/740
+- [ ] Add delight to the experience when all tasks are complete :tada:
 
 
 ### References

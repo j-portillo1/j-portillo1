@@ -35,6 +35,17 @@ _**pacman -S --needed base-devel mingw-w64-ucrt-x86_64-toolchain**_
 - [ ] Open a new command prompt and type **g++ --version** and click enter. 
 Output should state the version of g++. If that is the case, set up was successful. 
 
+## Creating a Hello World! Program 
+Type the code below into **helloWorld.cpp** file 
+
+```
+#include <iostream>
+
+
+int main() {
+    std::cout << "Hello World!";}
+
+```
 
 
 ### References

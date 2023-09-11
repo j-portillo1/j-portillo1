@@ -36,7 +36,7 @@ _**pacman -S --needed base-devel mingw-w64-ucrt-x86_64-toolchain**_
 Output should state the version of g++. If that is the case, set up was successful. 
 
 ## Creating a Hello World! Program 
-Type the code below into **helloWorld.cpp** file 
+Type the code below into your **HelloWorld.cpp** file 
 
 ```
 #include <iostream>
@@ -56,3 +56,5 @@ int main() {
 
 
 [3] https://code.visualstudio.com/docs/cpp/config-mingw
+
+[4] https://www.programiz.com/cpp-programming/examples/print-sentence#google_vignette

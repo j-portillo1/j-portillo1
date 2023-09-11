@@ -28,11 +28,11 @@ Select the “C/ C++” option and click install.
 - [ ] When done, check MSYS2 box and click finish. 
 - [ ] A MSYS2 terminal window will appear. When open, run the command:
 _**pacman -S --needed base-devel mingw-w64-ucrt-x86_64-toolchain**_
-- [ ] Accept the default packages by _clicking enter key_ and enter _ Y_  when asked to proceed with installation. 
+- [ ] Accept the default packages by clicking **enter key** and type **Y** when asked to proceed with installation. 
 - [ ] Once done, add the path to MinGW-w64 bin folder to the windows PATH environment variable. 
 
 3.Final Step: Check MinGW installation 
-- [ ] Open a new command prompt and type _ g++ --version_ and click enter. 
+- [ ] Open a new command prompt and type **g++ --version** and click enter. 
 Output should state the version of g++. If that is the case, set up was successful. 
 
 

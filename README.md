@@ -47,6 +47,9 @@ int main() {
 
 ```
 
+The first line of code **#include <iostream>** allows for the use of cout which allows for the output to be printed to the terminal. 
+The **main()** function is necesarry for every C++ program. 
+As breifly mentioned above, the **std::cout*** allows us to print our text inside the quotation marks.
 
 ### References
 [1] https://www.geeksforgeeks.org/history-of-c/

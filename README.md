@@ -8,6 +8,15 @@ C++ is a general purpose, object oriented language.
 ### History 
 C++ is a general purpose programming lanuage initially known as ‘C with Classes' but later modified in 1983 to C++. It was developed in 1979 by Danish Computer Scientist, Bjarne Stroustrup. In the process of completing his PHD at Bell Telephone Laboratories, now known as Nokia Bell  Labs. He wanted a language similar to C but with an additional implementation of classes, inlining, basic inheritance, default functioning argument etc. C++ is primarily used for the development of applications, games, operating systems and browsers. 
 
+
+## Resources I will be using to get more info. and guidance on C++: 
+* will be updated throught the semester
+  
+[1] https://cplusplus.com/doc/tutorial/
+
+[2] https://www.w3schools.com/cpp/
+
+
 ## C++ SetUp
 ### Windows Installation
 
@@ -74,7 +83,3 @@ On the top left menu click "Run" and then click "Run Without Debugging"
 [3] https://code.visualstudio.com/docs/cpp/config-mingw
 
 [4] https://www.programiz.com/cpp-programming/examples/print-sentence#google_vignette
-
-[5] https://cplusplus.com/doc/tutorial/
-
-[6] https://www.w3schools.com/cpp/

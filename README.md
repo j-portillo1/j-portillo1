@@ -31,7 +31,7 @@ Select the “C/ C++” option and click install.
 - [ ] Choose the desired installation folder and menu shortcut option.
 - [ ] When done, check MSYS2 box and click finish. 
 - [ ] A MSYS2 terminal window will appear. When open, run the command:
-_**pacman -S --needed base-devel mingw-w64-ucrt-x86_64-toolchain**_
+```_**pacman -S --needed base-devel mingw-w64-ucrt-x86_64-toolchain**_```
 - [ ] Accept the default packages by clicking **enter key** and type **Y** when asked to proceed with installation. 
 - [ ] Once done, add the path to MinGW-w64 bin folder to the windows PATH environment variable. 
 
@@ -59,7 +59,7 @@ As breifly mentioned, the **std::cout** allows us to print our text inside the q
 **To write comments in C++:**
 Use **//** for one line comments 
 
-Use **_/*_** for multiple line comments
+Use **_/*_**  to start and **_*/_** to end multiple line comments
 
 
 **To Run your Code:**

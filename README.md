@@ -10,7 +10,7 @@ C++ is a general purpose programming lanuage initially known as ‘C with Classe
 
 
 ### Resources I will be using to get more info. and guidance on C++: 
-* will be updated throughout the semester
+-will be updated throughout the semester
   
 [1] https://cplusplus.com/doc/tutorial/
 

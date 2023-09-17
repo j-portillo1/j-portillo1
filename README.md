@@ -5,16 +5,19 @@ Author: Jessica Portillo
 ## C++ History 
 C++ is a general purpose, object oriented language. 
 ### History 
-C++ is a general purpose programming lanuage initially known as ‘C with Classes' but was modified in 1983 to C++. C++ was developed in 1979 by Danish Computer Scientist, Bjarne Stroustrup. In the process of completing his PHD at Bell Telephone Laboratories, now known as Nokia Bell  Labs, he wanted a language similar to C but with an additional implementation of classes, inlining, basic inheritance, default functioning argument etc.  C++ is primarily used for the development of applications, games, operating systems and browsers. 
+C++ is a general purpose programming lanuage initially known as ‘C with Classes' but was modified in 1983 to C++. It was developed in 1979 by Danish Computer Scientist, Bjarne Stroustrup. In the process of completing his PHD at Bell Telephone Laboratories, now known as Nokia Bell  Labs, he wanted a language similar to C but with an additional implementation of classes, inlining, basic inheritance, default functioning argument etc. C++ is primarily used for the development of applications, games, operating systems and browsers. 
 
 ## C++ SetUp
-### Windows Installation 
+### Windows Installation
+
+I chose VS code as IDE since I am most familiar with it but other IDE's like Eclipse, Atom etc. can be used to run C++ programs.
+
 **Installing IDE**
 
 
 Install Virtual Studio Code using this [Link ](https://code.visualstudio.com/download
 )
-I chose VS code as IDE since I am most familiar with it but other IDE's like Eclipse, Atom etc. can be used to run C++ programs. 
+
 
 **Setting up  C++ in VSCode**
 
@@ -54,7 +57,8 @@ As breifly mentioned, the **std::cout** allows us to print our text inside the q
 
 
 **To write comments in C++:**
-Use **I//** for one line comments 
+Use **//** for one line comments 
+
 Use **_/*_** for multiple line comments
 
 
@@ -64,10 +68,12 @@ On the top left menu click "Run" and then click "Run Without Debugging"
 ### References
 [1] https://www.geeksforgeeks.org/history-of-c/
 
-
 [2] https://unstop.com/blog/history-of-cpp
-
 
 [3] https://code.visualstudio.com/docs/cpp/config-mingw
 
 [4] https://www.programiz.com/cpp-programming/examples/print-sentence#google_vignette
+
+[5] https://cplusplus.com/doc/tutorial/
+
+[6] https://www.w3schools.com/cpp/

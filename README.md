@@ -5,7 +5,7 @@ Author: Jessica Portillo
 ## C++ History 
 C++ is a general purpose, object oriented language. 
 ### History 
-C++ was developed in 1979 by Danish Computer Scientist, Bjarne Stroustrup. In the process of completing his PHD at Bell Telephone Laboratories, now known as Nokia Bell  Labs, he wanted a language similar to C but with an additional implementation of classes, inlining, basic inheritance, default functioning argument etc. The language was initially known as ‘C with Classes' but was modified in 1983 to C++. 
+C++ is a general purpose programming lanuage initially known as ‘C with Classes' but was modified in 1983 to C++. C++ was developed in 1979 by Danish Computer Scientist, Bjarne Stroustrup. In the process of completing his PHD at Bell Telephone Laboratories, now known as Nokia Bell  Labs, he wanted a language similar to C but with an additional implementation of classes, inlining, basic inheritance, default functioning argument etc.  C++ is primarily used for the development of applications, games, operating systems and browsers. 
 
 ## C++ SetUp
 ### Windows Installation 
@@ -14,6 +14,7 @@ C++ was developed in 1979 by Danish Computer Scientist, Bjarne Stroustrup. In th
 
 Install Virtual Studio Code using this [Link ](https://code.visualstudio.com/download
 )
+I chose VS code as IDE since I am most familiar with it but other IDE's like Eclipse, Atom etc. can be used to run C++ programs. 
 
 **Setting up  C++ in VSCode**
 
@@ -50,6 +51,15 @@ int main() {
 The first line of code **#include <iostream>** allows for the use of _cout_ which prints the output to the terminal. 
 The **main()** function is necesarry for every C++ program. 
 As breifly mentioned, the **std::cout** allows us to print our text inside the quotation marks.
+
+
+**To write comments in C++:**
+Use **I//** for one line comments 
+Use **_/*_** for multiple line comments
+
+
+**To Run your Code:**
+On the top left menu click "Run" and then click "Run Without Debugging" 
 
 ### References
 [1] https://www.geeksforgeeks.org/history-of-c/

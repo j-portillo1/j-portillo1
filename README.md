@@ -31,9 +31,7 @@ Select the “C/ C++” option and click install.
 - [ ] Once downloaded, run the installer, and follow the steps given by the installation wizard.
 - [ ] Choose the desired installation folder and menu shortcut option.
 - [ ] When done, check MSYS2 box and click finish. 
-- [ ] A MSYS2 terminal window will appear. When open, run the command:
-      
-      ```pacman -S --needed base-devel mingw-w64-ucrt-x86_64-toolchain```
+- [ ] A MSYS2 terminal window will appear. When open, run the command: ```pacman -S --needed base-devel mingw-w64-ucrt-x86_64-toolchain```
 
 - [ ] Accept the default packages by clicking **enter key** and type **Y** when asked to proceed with installation. 
 - [ ] Once done, add the path to MinGW-w64 bin folder to the windows PATH environment variable. 

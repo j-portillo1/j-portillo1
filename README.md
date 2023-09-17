@@ -1,11 +1,12 @@
 # CS330- C++ 
 Repo for learning C++ 
+
 Author: Jessica Portillo 
 
 ## C++ History 
 C++ is a general purpose, object oriented language. 
 ### History 
-C++ is a general purpose programming lanuage initially known as ‘C with Classes' but was modified in 1983 to C++. It was developed in 1979 by Danish Computer Scientist, Bjarne Stroustrup. In the process of completing his PHD at Bell Telephone Laboratories, now known as Nokia Bell  Labs, he wanted a language similar to C but with an additional implementation of classes, inlining, basic inheritance, default functioning argument etc. C++ is primarily used for the development of applications, games, operating systems and browsers. 
+C++ is a general purpose programming lanuage initially known as ‘C with Classes' but later modified in 1983 to C++. It was developed in 1979 by Danish Computer Scientist, Bjarne Stroustrup. In the process of completing his PHD at Bell Telephone Laboratories, now known as Nokia Bell  Labs. He wanted a language similar to C but with an additional implementation of classes, inlining, basic inheritance, default functioning argument etc. C++ is primarily used for the development of applications, games, operating systems and browsers. 
 
 ## C++ SetUp
 ### Windows Installation
@@ -31,6 +32,7 @@ Select the “C/ C++” option and click install.
 - [ ] Choose the desired installation folder and menu shortcut option.
 - [ ] When done, check MSYS2 box and click finish. 
 - [ ] A MSYS2 terminal window will appear. When open, run the command:
+      
       ```pacman -S --needed base-devel mingw-w64-ucrt-x86_64-toolchain```
 
 - [ ] Accept the default packages by clicking **enter key** and type **Y** when asked to proceed with installation. 

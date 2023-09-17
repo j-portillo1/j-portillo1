@@ -9,7 +9,7 @@ C++ is a general purpose, object oriented language.
 C++ is a general purpose programming lanuage initially known as ‘C with Classes' but later modified in 1983 to C++. It was developed in 1979 by Danish Computer Scientist, Bjarne Stroustrup. In the process of completing his PHD at Bell Telephone Laboratories, now known as Nokia Bell  Labs. He wanted a language similar to C but with an additional implementation of classes, inlining, basic inheritance, default functioning argument etc. C++ is primarily used for the development of applications, games, operating systems and browsers. 
 
 
-# Resources I will be using to get more info. and guidance on C++: 
+### Resources I will be using to get more info. and guidance on C++: 
 * will be updated throughout the semester
   
 [1] https://cplusplus.com/doc/tutorial/

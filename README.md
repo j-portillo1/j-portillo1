@@ -106,7 +106,7 @@ Table Images Taken from [cplusplus](https://cplusplus.com/doc/tutorial/operators
 
 
 
-<img src="https://github.com/j-portillo1/j-portillo1/assets/144365700/db9e5fe9-ab48-415d-8ce4-3715de239e46" width="500" height="300">
+<img src="https://github.com/j-portillo1/j-portillo1/assets/144365700/db9e5fe9-ab48-415d-8ce4-3715de239e46" width="400" height="300">
 
 
 

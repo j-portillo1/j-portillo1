@@ -77,8 +77,11 @@ On the top left menu click "Run" and then click "Run Without Debugging"
 
 ## C++ Data Types and Naming Conventions 
 C++ contains a total of 95 keywords. These keywords have a unique purpose and meaning to the compiler. This means these reserved words can’t be used to name a variable, function or other identifiers. These keywords are always written in lowercase. 
-The table below  is a screenshot taken from CPPReference demonstrates the reserved keywords  [Link ](https://en.cppreference.com/w/cpp/keyword)
 
+
+The table below  is a screenshot taken from [CPPReference](https://en.cppreference.com/w/cpp/keyword) demonstrates the reserved keywords  
+
+![Screenshot (131)](https://github.com/j-portillo1/j-portillo1/assets/144365700/e3fea75a-4ef5-48bd-b87d-bf91af676531)
 
 
 

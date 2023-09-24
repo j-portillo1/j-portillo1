@@ -81,7 +81,36 @@ C++ contains a total of 95 keywords. These keywords have a unique purpose and me
 
 The table below  is a screenshot taken from [CPPReference](https://en.cppreference.com/w/cpp/keyword) demonstrates the reserved keywords  
 
-<img src="https://github.com/j-portillo1/j-portillo1/assets/144365700/e3fea75a-4ef5-48bd-b87d-bf91af676531" width="280" height="280">
+<img src="https://github.com/j-portillo1/j-portillo1/assets/144365700/e3fea75a-4ef5-48bd-b87d-bf91af676531" width="280" height="300">
+
+
+# Naming Conventions 
+These naming conventions are standards followed by the C++ Community
+- camelCase is most commonly used for variable and function names  
+- Constants are named in uppercase letters, words separated by underscores
+- Class names first character should be uppercase , no underscores permitted, lowercase letter used as separators
+
+To name variables the following rules must be followed:
+1.Variable names cannot start with any number or special characters.
+2.A reserved keyword cannot be used as a name
+3.Only alphabetic characters, numbers and underscores can be used 
+4.Names should be descriptive/ meaningful 
+
+# Types and Binding 
+C++ is a statically typed language, before a program is run, it checks all types during compilation time. It is strongly typed since data types can be accurately represented.
+C++ performs implicit type conversion which is done when a value is being copied to a compatible type such as both being integer or string types. 
+In general C++ is mutable. When a string is a character array,  it is  immutable but as an object it is mutable. Additionally, a const object is inmmutable. 
+
+# C++ Operators 
+Table Images Taken from [cplusplus](https://cplusplus.com/doc/tutorial/operators/)
+
+<img src="https://github.com/j-portillo1/j-portillo1/assets/144365700/93d6e048-577a-4b29-90a6-65ea77e2631f" width="280" height="300">
+<img src="https://github.com/j-portillo1/j-portillo1/assets/144365700/db9e5fe9-ab48-415d-8ce4-3715de239e46" width="280" height="300">
+<img src="https://github.com/j-portillo1/j-portillo1/assets/144365700/7c96b743-24ca-4418-b8e8-09dbf3182faa" width="280" height="300">
+
+
+
+
 
 
 

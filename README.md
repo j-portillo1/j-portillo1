@@ -112,7 +112,7 @@ Table Images Taken from [cplusplus](https://cplusplus.com/doc/tutorial/operators
 <img src="https://github.com/j-portillo1/j-portillo1/assets/144365700/7c96b743-24ca-4418-b8e8-09dbf3182faa" width="700" height="300">
 
 
-<img src="https://github.com/j-portillo1/j-portillo1/assets/144365700/93d6e048-577a-4b29-90a6-65ea77e2631f" width="500" height="300">
+<img src="https://github.com/j-portillo1/j-portillo1/assets/144365700/93d6e048-577a-4b29-90a6-65ea77e2631f" width="700" height="300">
 
 
 

@@ -81,9 +81,7 @@ C++ contains a total of 95 keywords. These keywords have a unique purpose and me
 
 The table below  is a screenshot taken from [CPPReference](https://en.cppreference.com/w/cpp/keyword) demonstrates the reserved keywords  
 
-![Screenshot (131)](https://github.com/j-portillo1/j-portillo1/assets/144365700/e3fea75a-4ef5-48bd-b87d-bf91af676531)
-
-
+<img src="https://github.com/j-portillo1/j-portillo1/assets/144365700/e3fea75a-4ef5-48bd-b87d-bf91af676531" width="150" height="280">
 
 
 

@@ -96,6 +96,18 @@ To name variables the following rules must be followed:
 3.Only alphabetic characters, numbers and underscores can be used 
 4.Names should be descriptive/ meaningful 
 
+### Variable declaration of common data types 
+**int**
+```
+// Declaring two integer variables 
+    int a, b;
+    a = 10;
+    b = 4;
+    cout << a << "\n"; // displays output of variable a 
+    cout << b << "\n"; // displays output of variable b 
+
+```
+
 # Types and Binding 
 C++ is a statically typed language, before a program is run, it checks all types during compilation time. It is strongly typed since data types can be accurately represented.
 C++ performs implicit type conversion which is done when a value is being copied to a compatible type such as both being integer or string types. 

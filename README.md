@@ -75,7 +75,7 @@ Use **_/*_**  to start and **_*/_** to end multiple line comments
 **To Run your Code:**
 On the top left menu click "Run" and then click "Run Without Debugging" 
 
-### C++ Data Types and Naming Conventions 
+# C++ Data Types and Naming Conventions 
 C++ contains a total of 95 keywords. These keywords have a unique purpose and meaning to the compiler. This means these reserved words can’t be used to name a variable, function or other identifiers. These keywords are always written in lowercase. 
 
 

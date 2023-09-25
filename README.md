@@ -183,7 +183,7 @@ Table Images Taken from [cplusplus](https://cplusplus.com/doc/tutorial/operators
 
 <img src="https://github.com/j-portillo1/j-portillo1/assets/144365700/93d6e048-577a-4b29-90a6-65ea77e2631f" width="750" height="350">
 
-**Can you add int and float types in C++**
+**Can you add int and float types in C++?**
 The answer is yes- you will get a float type variable. 
 ```
     int a = 10;
@@ -192,7 +192,7 @@ The answer is yes- you will get a float type variable.
 // returns 13.78 
 
 ```
-**Can you divide int and float types in C++**
+**Can you divide int and float types in C++?**
 Yes - result will be float type variable 
 ```
  int a = 10;
@@ -201,7 +201,8 @@ cout << num1 / a << "\n";
 // result will be 0.378
 
 ```
-**Can you add int and string types in C++**
+**Can you add int and string types in C++?** 
+No - you will recieve an error 
 ```
 // Example from https://www.educative.io/answers/how-to-add-numbers-and-strings-in-cpp
     string x = "5";

@@ -189,7 +189,7 @@ The answer is yes- you will get a float type variable.
     int a = 10;
     float num1 = 3.78; 
     cout << num1 + a << "\n";
-// returns 13.78 
+// result will be 13.78 
 
 ```
 **Can you divide int and float types in C++?**
@@ -214,7 +214,7 @@ No - you will recieve an error
     string z = x + y;
 
     cout << z; // this will give an error 
-    return 0; */
+    return 0; 
 
 ```
 

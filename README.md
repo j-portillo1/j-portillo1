@@ -75,7 +75,7 @@ Use **_/*_**  to start and **_*/_** to end multiple line comments
 **To Run your Code:**
 On the top left menu click "Run" and then click "Run Without Debugging" 
 
-## C++ Data Types and Naming Conventions 
+### C++ Data Types and Naming Conventions 
 C++ contains a total of 95 keywords. These keywords have a unique purpose and meaning to the compiler. This means these reserved words can’t be used to name a variable, function or other identifiers. These keywords are always written in lowercase. 
 
 
@@ -84,7 +84,7 @@ The table below  is a screenshot taken from [CPPReference](https://en.cppreferen
 <img src="https://github.com/j-portillo1/j-portillo1/assets/144365700/e3fea75a-4ef5-48bd-b87d-bf91af676531" width="280" height="300">
 
 
-# Naming Conventions 
+## Naming Conventions 
 These naming conventions are standards followed by the C++ Community
 - camelCase is most commonly used for variable and function names  
 - Constants are named in uppercase letters, words separated by underscores
@@ -165,12 +165,12 @@ To name variables the following rules must be followed:
 
 ```
 
-# Types and Binding 
+### Types and Binding 
 C++ is a statically typed language, before a program is run, it checks all types during compilation time. It is strongly typed since data types can be accurately represented.
 C++ performs implicit type conversion which is done when a value is being copied to a compatible type such as both being integer or string types. 
 In general C++ is mutable. When a string is a character array,  it is  immutable but as an object it is mutable. Additionally, a const object is inmmutable. 
 
-# C++ Operators 
+## C++ Operators 
 Table Images Taken from [cplusplus](https://cplusplus.com/doc/tutorial/operators/)
 
 

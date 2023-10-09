@@ -218,6 +218,47 @@ No - you will recieve an error
 
 ```
 
+## C++ Loops and Functions
+
+**For Loop**
+```
+//Modified from W3 Schools https://www.w3schools.com/cpp/cpp_for_loop.asp
+for (int i = 0; i < 10; i++) {
+  cout << i << "\n";
+}
+```
+As stated in W3Schools _int i_ creates the variable _i_ before the loop starts.
+The statement _i < 10_ sets the condition- the loop will keep going as long as the number _i_ is less than _10_. This means it will stop when it is greater than 10. The third statement _i++_ increments the value of the variable_ i _each time the loop executes. 
+
+**While Loop**
+
+```
+//Modified from https://www.w3schools.com/cpp/cpp_while_loop.asp
+int i = 0;
+while (i < 10) {
+  cout << i << "\n";
+  i++;
+}
+
+```
+This loop initializes the variable _i_. The while loop will execute as long as the variable i is less than 10. It is important to note that after the loop prints out the value of variable _i_, it increments the value of i by one - the line _i ++ _shows this. 
+
+**Do/While Loops**
+```
+//Modified from https://www.w3schools.com/cpp/cpp_do_while_loop.asp
+int i = 0;
+do {
+  cout << i << "\n";
+  i++;
+}
+while (i < 10);
+
+```
+This loop is similar to the while loop in terms of what is being initialized and done. The difference with this loop is that it will execute the code block (inside the do {}) once, before it will check if the whole condition is true. It will then loop through until the condition is not true. In this case it will print the value of _i_ (which is currently 0) then increment _i_ by one and then it will check the while condition (i<10) and loop through until _i_ is greater than 10. 
+
+
+
+
 
 
 

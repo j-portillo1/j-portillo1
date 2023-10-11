@@ -258,7 +258,16 @@ This loop is similar to the while loop in terms of what is being initialized and
 
 
 **Creating a Function**
-A function is created by stating is return value - can either be void, int etc. and its name. 
+
+
+
+
+
+A function is created by stating its return value - can either be void, int etc. and its name.
+
+
+
+
 EXAMPLE: 
 ```
 void myFirstFunction() {
@@ -290,6 +299,14 @@ int main() {
 
 
 _Functions must be declared before they are called. This means a function must be defined and more preferably placed at the beginning of the file before it is called within other functions._
+
+
+
+
+
+
+
+
 **Recursive Function Factorials**
 
 ```
@@ -354,6 +371,11 @@ Cplusplus
 World
 ```
 **Pass by Reference Or Pass by Value**
+
+
+
+
+
 C++ functions can be passed by reference or by value. In my previous examples, the functions are passed by value since a copy of the parameter value is being stored in a variable and returned. 
 Here is an example of being passed by reference. The parameters in this swapNums function creates variables referencing other variables using &. The Variable x and y are referring to other existing variables. In this case,  x is equal to the value of y and y is equal to the value of x. 
 

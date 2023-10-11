@@ -228,7 +228,7 @@ for (int i = 0; i < 10; i++) {
 }
 ```
 As stated in W3Schools _int i_ creates the variable _i_ before the loop starts.
-The statement _i < 10_ sets the condition- the loop will keep going as long as the number _i_ is less than _10_. This means it will stop when it is greater than 10. The third statement _i++_ increments the value of the variable_ i _each time the loop executes. 
+The statement _i < 10_ sets the condition- the loop will keep going as long as the number _i_ is less than _10_. This means it will stop when it is greater than 10. The third statement _i++_ increments the value of the variable_i_each time the loop executes. 
 
 **While Loop**
 
@@ -241,7 +241,7 @@ while (i < 10) {
 }
 
 ```
-This loop initializes the variable _i_. The while loop will execute as long as the variable i is less than 10. It is important to note that after the loop prints out the value of variable _i_, it increments the value of i by one - the line _i ++ _shows this. 
+This loop initializes the variable _i_. The while loop will execute as long as the variable i is less than 10. It is important to note that after the loop prints out the value of variable _i_, it increments the value of i by one - the line _i ++_shows this. 
 
 **Do/While Loops**
 ```
@@ -257,8 +257,170 @@ while (i < 10);
 This loop is similar to the while loop in terms of what is being initialized and done. The difference with this loop is that it will execute the code block (inside the do {}) once, before it will check if the whole condition is true. It will then loop through until the condition is not true. In this case it will print the value of _i_ (which is currently 0) then increment _i_ by one and then it will check the while condition (i<10) and loop through until _i_ is greater than 10. 
 
 
+**Creating a Function**
+A function is created by stating is return value - can either be void, int etc. and its name. 
+EXAMPLE: 
+```
+void myFirstFunction() {
+  // code
+}
+```
+
+**Function that Multiplies two Values**
 
 
+```
+#include <iostream>
+using namespace std; //standard output cout being declared in scope
+
+void myFunction(int one, int two) {
+  int output = one * two;
+  cout << "result: " << output <<"\n";
+}
+
+int main() {
+  myFunction(5,7);
+  myFunction(3,6);
+  myFunction(1,2);
+  return 0;
+}
+
+```
+
+
+
+_Functions must be declared before they are called. This means a function must be defined and more preferably placed at the beginning of the file before it is called within other functions._
+**Recursive Function Factorials**
+
+```
+ Code modified and taken from https://www.tutorialspoint.com/cplusplus-program-to-find-factorial-of-a-number-using-recursion
+
+#include <iostream>
+using namespace std;
+int factorial(int n) {
+   if ((n==0)||(n==1))
+   return 1;
+   else
+   return n*factorial(n-1);
+}
+int main() {
+   int result = factorial(5);  // result of function stored in a variable 
+   cout<<" The result is: "<< result;
+   return 0;
+}
+```
+
+
+
+```
+Output: The result is: 120
+```
+**Split String Function**
+```
+//Code Taken from : https://iq.opengenus.org/split-string-in-cpp/ 
+//This page also shows 2 alternatives to splitting strings in C 
+#include <iostream>  
+#include <cstring>  
+using namespace std;  
+  
+int main()  
+{  
+    char str[100]; // declare the size of string      
+    cout << " Enter a string: " <<endl;  
+    cin.getline(str, 100); // use getline() function to read a string from input stream  
+      
+    char *ptr; // declare a ptr pointer  
+    ptr = strtok(str, " , "); // use strtok() function to separate string using comma (,) delimiter.  
+    cout << " Split string using strtok() function: " << endl;   
+    while (ptr != NULL)  
+    {  
+        cout << ptr  << endl; // print the string token  
+        ptr = strtok (NULL, " , ");  
+    }  
+    return 0;
+ }
+```
+
+
+```
+Output: 
+
+Enter a string: 
+Hello Cplusplus World
+
+Split string using strtok() function:
+Hello
+Cplusplus
+World
+```
+**Pass by Reference Or Pass by Value**
+C++ functions can be passed by reference or by value. In my previous examples, the functions are passed by value since a copy of the parameter value is being stored in a variable and returned. 
+Here is an example of being passed by reference. The parameters in this swapNums function creates variables referencing other variables using &. The Variable x and y are referring to other existing variables. In this case,  x is equal to the value of y and y is equal to the value of x. 
+
+```
+//Code Taken and slightly modified from https://www.w3schools.com/cpp/cpp_function_reference.asp
+#include <iostream>
+using namespace std;
+
+void swapNums(int &x, int &y) {
+  int z = x;
+  x = y;
+  y = z;
+}
+
+int main() {
+  int firstNum = 10;
+  int secondNum = 20;
+
+  cout << "Before swap: " << "\n";
+  cout << "First Num: " <<firstNum << " Second Num: " << secondNum << "\n";
+
+  swapNums(firstNum, secondNum);
+
+  cout << "After swap: " << "\n";
+  cout << "First Num: " <<firstNum << " Second Num: " << secondNum << "\n";
+
+  return 0;
+}
+
+```
+
+
+```
+Output:
+Before swap: 
+First Num: 10 Second Num: 20
+After swap: 
+First Num: 20 Second Num: 10
+```
+
+**Function accepting different Data Types**
+```
+//This example was taken and slightly modified from https://www.w3schools.com/cpp/cpp_function_multiple.asp
+
+
+void myFunction(string fname, int age) {
+  cout << fname << " Smith. " << age << " years old. \n";
+}
+
+int main() {
+  myFunction("Jen", 15);
+  myFunction("Mark", 20);
+  myFunction("Ana", 25);
+  return 0;
+}
+
+//Output:
+//Jen Smith. 15 years old.
+//Mark Smith. 20 years old.
+//Ana Smith. 25 years old. 
+
+```
+
+_C++ functions can accept multiple parameters with different data types. For example, ints and doubles and in this case ints and strings._
+
+**Function Return Values**
+Functions in C++ cannot return multiple values at the same time. However there are ways around this problem with the use of pointers, structures or arrays. Examples of these methods can be found in the link: [Geeks For Geeks](https://www.geeksforgeeks.org/how-to-return-multiple-values-from-a-function-in-c-or-cpp/) 
 
 
 

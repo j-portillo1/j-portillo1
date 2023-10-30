@@ -444,10 +444,45 @@ _C++ functions can accept multiple parameters with different data types. For exa
 **Function Return Values**
 Functions in C++ cannot return multiple values at the same time. However there are ways around this problem with the use of pointers, structures or arrays. Examples of these methods can be found in the link: [Geeks For Geeks](https://www.geeksforgeeks.org/how-to-return-multiple-values-from-a-function-in-c-or-cpp/) 
 
+## C++ If/Else, Switch 
+**Boolean Values in C++**
+A boolean variable is declared with the keyword **bool** and takes the values true or false
 
 
+```
+bool isTypingFun = true;
+bool isWritingFun = false;
+cout << isTypingFun;  // Outputs 1 (true)
+cout << isWritingFun;  // Outputs 0 (false)
+```
+
+**Conditional Statements**
+_if/ Else_
+
+```
+int X = 15 
+if (x> 10){
+          	Cout << (“Xis greater than 15” );
+}else{
+         	Cout << (“x is less than 15);
+}
+
+```
+_if/else if/else_
+
+```
+SOURCE: https://www.w3schools.com/cpp/cpp_conditions_elseif.asp
+int time = 22;
+if (time < 10) {
+  cout << "Good morning.";
+} else if (time < 20) {
+  cout << "Good day.";
+} else {
+  cout << "Good evening.";
+}
 
 
+```
 
 
 ### References

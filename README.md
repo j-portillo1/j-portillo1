@@ -457,6 +457,11 @@ cout << isWritingFun;  // Outputs 0 (false)
 ```
 
 **Conditional Statements**
+
+
+
+
+
 _if/ Else_
 
 ```
@@ -468,7 +473,7 @@ if (x> 10){
 }
 
 ```
-_if/else if/else_
+_if/ else if/ else_
 
 ```
 SOURCE: https://www.w3schools.com/cpp/cpp_conditions_elseif.asp
@@ -483,6 +488,37 @@ if (time < 10) {
 
 
 ```
+_Short Hand Else if_
+
+```
+variable = (condition) ? expressionTrue : expressionFalse;
+int num = 10;
+string result = (num < 20) ? "Less Than" : "Greater than.";
+cout << result;
+
+```
+
+_Switch Statement_
+```
+int month = 5;
+switch (month) {
+  case 6:
+	cout << "The month is June";
+    break;
+  case 7:
+	cout << "The month is July";
+    break;
+  default:
+	cout << "Looking forward to the Summer! ";
+}
+// Outputs "Looking forward to the Summer! "
+
+
+```
+-The switch expression is evaluated once
+-The value of the expression is compared with the values of each case and if it matches the code will be executed
+-When the break keyword is reached it will break out of the switch block and stop execution. 
+-The default keyword specifies code to run if there is no case match
 
 
 ### References

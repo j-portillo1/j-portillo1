@@ -520,6 +520,39 @@ switch (month) {
 -When the break keyword is reached it will break out of the switch block and stop execution. 
 -The default keyword specifies code to run if there is no case match
 
+**NOTE:** C++ delimits code blocks and statements with the use of **curly brackets {}**
+
+
+
+
+**C++ Use of Short Circut Evaluation:** 
+
+**AND**
+```
+if (0 == 1 && 1 + 1 == 2) {
+         cout <<("(0 == 1 && 1 + 1 == 2) is true\n");
+      } 
+      else {
+         cout<<("(0 == 1 && 1 + 1 == 2) is false\n");
+      }
+      
+//Returns (0 == 1 && 1 + 1 == 2) is false
+
+```
+**OR**
+```
+if (1 + 1 == 2 || 0 == 1) {
+         cout <<("(1 + 1 == 2 || 0 == 1) is true\n");
+         } 
+         else {
+         cout <<("(1 + 1 == 2 || 0 == 1) is false\n");
+      }
+
+//Returns (1 + 1 == 2 || 0 == 1) is true
+
+```
+
+
 
 ### References
 [1] https://www.geeksforgeeks.org/history-of-c/

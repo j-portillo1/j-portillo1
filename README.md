@@ -603,7 +603,7 @@ void ageGroup(){
     cout<<"You are an adult"<<"\n";
     }
     else {
-    cout << "You are a child";
+    cout << "You are a child"<<"\n";
     } 
     
 }};
@@ -642,6 +642,7 @@ int main() {
 //You are an adult
 //GPA is high
 ```
+The Child class Student inherits from Person. This means that the Student class is able to use the class variables and methods inside Person and inside their own class Student. As can be seen in the main function, the student age, and name are used from the Person class as well as the ageGroup method. Instead of sepreately adding the attributes name and age to the Student class we can inherit from the Person class that way we reduce repetitve code and have a more organized structure. 
 
 
 ### References

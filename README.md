@@ -564,6 +564,16 @@ class Person {
   public:
     string name;
     int age;
+
+void ageGroup(){
+    if (age> 17) {
+    cout<<"You are an adult"<<"\n";
+    }
+    else {
+    cout << "You are a child"<<"\n";
+    } 
+    
+}};
 };
 
 int main() {
@@ -586,6 +596,10 @@ int main() {
 //Frank 27
 
 ```
+This person class is created with the keyword class and within this class the instance variables are created. In this case those variables are name and age. In the main function, the object is instantiated by first stating the type which is the name of the class, "Person" and next to it, what ever you choose to name the object. In my example, I created to instaances of the Person class, the first being _Person perObj1_ and the second being _Person perObj2_. 
+
+To assign values to the object attributes, you choose the object and instance variable you want to assign. In this example I wanted to assign the name Sam to perObj1 so i typed perObj1.name the structure is ObjectName.instanceVariable = ""; 
+I followed this for the age varible and to assign values to the perObj2. 
 ## Inheritance
 ```
 #include <iostream>

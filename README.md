@@ -587,7 +587,7 @@ int main() {
 
 ```
 ## Inheritance
-``
+```
 #include <iostream>
 #include <string>
 using namespace std;
@@ -641,7 +641,7 @@ int main() {
 //Name: Sam Age:19 ID:123 GPA:4
 //You are an adult
 //GPA is high
-``
+```
 
 
 ### References

@@ -57,7 +57,9 @@ Type the code below into your **HelloWorld.cpp** file
 
 
 int main() {
-    std::cout << "Hello World!";}
+    std::cout << "Hello World!";
+    return 0;
+}
 
 ```
 

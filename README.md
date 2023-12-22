@@ -661,7 +661,10 @@ int main() {
 The Child class Student inherits from Person. This means that the Student class is able to use the class variables and methods inside Person and inside their own class Student. As can be seen in the main function, the student age, and name are used from the Person class as well as the ageGroup method. Instead of sepreately adding the attributes name and age to the Student class we can inherit from the Person class that way we reduce repetitve code and have a more organized structure. 
 
 ### Below Is Priority Queue of Assignments, implemented through a Singly Linked List 
-The goal of this project was to combine everything in this ReadMe/ tutorial introduction to C++ 
+The goal of this project was to combine everything in this ReadMe/ tutorial introduction to C++.
+
+
+
 This Code uses classes, pointers, for loops, user input and more. 
 
 
@@ -819,6 +822,17 @@ int main() {
     return 0;
 }
 ```
+The Assignment and Node have their separate class object as well as a separate Priority
+Queue class. This was done to implement assignment objects inside a node object and to
+facilitate the passing of arguments/ data.
+
+
+
+Each class has its own set of methods. I used getter and setter methods to get and set data
+of nodes as well as get and set for the assignment description and priority. The enqueue and
+dequeue methods are where pointers are primarily being used to access nodes in the queue to
+order based on their priority by using .get methods and the arrow pointers( →) to get access.
+
 
 
 ### References

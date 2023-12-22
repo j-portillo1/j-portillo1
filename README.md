@@ -660,6 +660,166 @@ int main() {
 ```
 The Child class Student inherits from Person. This means that the Student class is able to use the class variables and methods inside Person and inside their own class Student. As can be seen in the main function, the student age, and name are used from the Person class as well as the ageGroup method. Instead of sepreately adding the attributes name and age to the Student class we can inherit from the Person class that way we reduce repetitve code and have a more organized structure. 
 
+### Below Is Priority Queue of Assignments, implemented through a Singly Linked List 
+The goal of this project was to combine everything in this ReadMe/ tutorial introduction to C++ 
+This Code uses classes, pointers, for loops, user input and more. 
+
+
+
+
+```
+#include <iostream>
+#include <string>
+
+class Assignment {
+public:
+    Assignment(const std::string& description, int priority) : description(description), priority(priority) {
+    }
+
+    std::string getDescription() const {
+        return description;
+    }
+
+    int getPriority() const {
+        return priority;
+    }
+
+
+    void setDescription(const std::string& newDescription) {
+        description = newDescription;
+    }
+
+    void setPriority(int newPriority) {
+        priority = newPriority;
+    }
+
+private:
+    std::string description;
+    int priority;
+};
+
+
+class Node {
+public:
+    Node(const Assignment& assignment) : assignment(assignment), next(nullptr) {}
+
+    Assignment getData() const {
+        return assignment;
+    }
+
+    void setData(const Assignment& newAssignment) {
+        assignment = newAssignment;
+    }
+
+    Node* getNext() const {
+        return next;
+    }
+
+    void setNext(Node* newNext) {
+        next = newNext;
+    }
+
+private:
+    Assignment assignment;
+    Node* next;
+};
+
+
+class PriorityQueue {
+public:
+    PriorityQueue() : head(nullptr) {}
+
+    
+    void enqueue(const Assignment& assignment) {
+        Node* newNode = new Node(assignment);
+
+        if (!head || assignment.getPriority() < head->getData().getPriority()) {
+            newNode->setNext(head);
+            head = newNode;
+        } else {
+            Node* current = head;
+            while (current->getNext() && assignment.getPriority() >= current->getNext()->getData().getPriority()) {
+                current = current->getNext();
+            }
+            newNode->setNext(current->getNext());
+            current->setNext(newNode);
+        }
+    }
+
+    Assignment dequeue() {
+        if (!head) {
+            return Assignment{"", 0};
+        }
+
+        Assignment data = head->getData();
+        Node* temp = head;
+        head = head->getNext();
+        delete temp;
+        return data;
+    }
+
+   
+    void printQueue() const {
+        Node* current = head;
+        while (current) {
+            Assignment assign = current->getData();
+            std::cout << "Assignment: " << assign.getDescription() << ", Priority: " << assign.getPriority() << std::endl;
+            current = current->getNext();
+        }
+    }
+
+  
+    void addAssignmentFromUserInput() {
+        std::string description;
+        int priority;
+
+        std::cout << "Enter Assignment Name: ";
+        std::cin >> description;
+
+        std::cout << "Enter Assignment priority: ";
+        std::cin >> priority;
+
+        Assignment newAssign(description, priority);
+        enqueue(newAssign);
+    }
+
+private:
+    Node* head;
+};
+
+
+int main() {
+    PriorityQueue pq;
+
+   
+    int numAssignment;
+    std::cout << "Enter the number of Assignments: ";
+    std::cin >> numAssignment;
+
+    for (int i = 0; i < numAssignment; ++i) {
+        std::cout << "\nEnter details for Assignment " << i + 1 << ":\n";
+        pq.addAssignmentFromUserInput();
+    }
+
+    std::cout << "\nPriority Queue Order Of Assignment Completion:\n";
+    pq.printQueue();
+
+    for (int i = 0; i < numAssignment; ++i) {
+        std:: string response;
+        std::cout << "Would you like to dequeue Assignment? ";
+        std::cin >> response;
+        if (response == "Yes"){
+            pq.dequeue();}
+        std::cout << "\nNew Priority Queue Order Of Assignment Completion:\n";
+        pq.printQueue();
+
+
+    }
+
+    return 0;
+}
+```
+
 
 ### References
 [1] https://www.geeksforgeeks.org/history-of-c/

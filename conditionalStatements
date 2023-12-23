@@ -1,0 +1,24 @@
+//If/Else
+int X = 15 
+if (x> 10){
+          	Cout << (“Xis greater than 15” );
+}else{
+         	Cout << (“x is less than 15);
+}
+
+//If ELse If Else
+SOURCE: https://www.w3schools.com/cpp/cpp_conditions_elseif.asp
+int time = 22;
+if (time < 10) {
+  cout << "Good morning.";
+} else if (time < 20) {
+  cout << "Good day.";
+} else {
+  cout << "Good evening.";
+}
+
+//ShortHand If Else
+variable = (condition) ? expressionTrue : expressionFalse;
+int num = 10;
+string result = (num < 20) ? "Less Than" : "Greater than.";
+cout << result;

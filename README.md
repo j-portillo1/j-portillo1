@@ -660,6 +660,34 @@ int main() {
 ```
 The Child class Student inherits from Person. This means that the Student class is able to use the class variables and methods inside Person and inside their own class Student. As can be seen in the main function, the student age, and name are used from the Person class as well as the ageGroup method. Instead of sepreately adding the attributes name and age to the Student class we can inherit from the Person class that way we reduce repetitve code and have a more organized structure. 
 
+### Structs
+A structure in C++ is a way of grouping several variables together in one location. Every variable in the structure is referred to as a structure member. The variables can be of various types. 
+
+
+Here is an example of a basic Struct:
+
+```
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main() {
+  struct {
+  int myAge;
+  string myName;
+} myStructure;
+
+  // Assign values to members of myStructure
+  myStructure.myAge = 25;
+  myStructure.myName = "Sam";
+
+  // Print members of myStructure
+  cout << myStructure.myAge << "\n";
+  cout << myStructure.myName << "\n";
+}
+
+```
+
 ### Below Is Priority Queue of Assignments, implemented through a Singly Linked List 
 The goal of this project was to combine everything in this ReadMe/ tutorial introduction to C++.
 
